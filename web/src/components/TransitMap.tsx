@@ -186,16 +186,18 @@ class MapController {
 
         const target = stops.find((s) => s.kind === "target");
         if (target) {
-            this.target ??= new maplibregl.Marker({ element: markerElement("stop-marker", { target: "true" }) }).addTo(m);
-            this.target.setLngLat([target.lon, target.lat]);
+            const at: [number, number] = [target.lon, target.lat];
+            this.target ??= new maplibregl.Marker({ element: markerElement("stop-marker", { target: "true" }) }).setLngLat(at).addTo(m);
+            this.target.setLngLat(at);
         } else {
             this.target?.remove();
             this.target = null;
         }
 
         if (me) {
-            this.me ??= new maplibregl.Marker({ element: markerElement("me-marker") }).addTo(m);
-            this.me.setLngLat([me.lon, me.lat]);
+            const at: [number, number] = [me.lon, me.lat];
+            this.me ??= new maplibregl.Marker({ element: markerElement("me-marker") }).setLngLat(at).addTo(m);
+            this.me.setLngLat(at);
         }
 
         const seen = new Set<string>();
