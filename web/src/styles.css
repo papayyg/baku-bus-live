@@ -1,0 +1,262 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter/index.css";
+
+:root {
+    --canvas: #ffffff;
+    --soft: #efefef;
+    --softer: #f6f6f6;
+    --pressed: #e2e2e2;
+    --ink: #000000;
+    --body: #5e5e5e;
+    --mute: #afafaf;
+    --line: #e8e8e8;
+    --primary: #000000;
+    --on-primary: #ffffff;
+    --float: 0 2px 8px rgb(0 0 0 / 0.16);
+    color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+    --canvas: #000000;
+    --soft: #1c1c1c;
+    --softer: #121212;
+    --pressed: #2c2c2c;
+    --ink: #ffffff;
+    --body: #a6a6a6;
+    --mute: #6b6b6b;
+    --line: #222222;
+    --primary: #ffffff;
+    --on-primary: #000000;
+    --float: 0 2px 8px rgb(0 0 0 / 0.6);
+    color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --canvas: #000000;
+        --soft: #1c1c1c;
+        --softer: #121212;
+        --pressed: #2c2c2c;
+        --ink: #ffffff;
+        --body: #a6a6a6;
+        --mute: #6b6b6b;
+        --line: #222222;
+        --primary: #ffffff;
+        --on-primary: #000000;
+        --float: 0 2px 8px rgb(0 0 0 / 0.6);
+        color-scheme: dark;
+    }
+}
+
+@theme {
+    --font-sans: "Twemoji Country Flags", "Inter Variable", system-ui, "Helvetica Neue", Arial, sans-serif;
+    --color-canvas: var(--canvas);
+    --color-soft: var(--soft);
+    --color-softer: var(--softer);
+    --color-pressed: var(--pressed);
+    --color-ink: var(--ink);
+    --color-body: var(--body);
+    --color-mute: var(--mute);
+    --color-line: var(--line);
+    --color-primary: var(--primary);
+    --color-on-primary: var(--on-primary);
+
+    --text-caption: 12px;
+    --text-caption--line-height: 16px;
+    --text-sm: 14px;
+    --text-sm--line-height: 20px;
+    --text-md: 16px;
+    --text-md--line-height: 22px;
+    --text-lg: 18px;
+    --text-lg--line-height: 24px;
+    --text-d-sm: 20px;
+    --text-d-sm--line-height: 28px;
+    --text-d-md: 24px;
+    --text-d-md--line-height: 30px;
+    --text-d-lg: 32px;
+    --text-d-lg--line-height: 38px;
+    --text-hero: 56px;
+    --text-hero--line-height: 56px;
+}
+
+@layer base {
+    html,
+    body,
+    #root {
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+        background: var(--canvas);
+        color: var(--ink);
+        font-family: var(--font-sans);
+        font-size: 16px;
+        line-height: 22px;
+        -webkit-font-smoothing: antialiased;
+        -webkit-tap-highlight-color: transparent;
+        overscroll-behavior: none;
+    }
+
+    button {
+        cursor: pointer;
+        font: inherit;
+        color: inherit;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--ink);
+        outline-offset: 2px;
+    }
+
+    input::placeholder {
+        color: var(--mute);
+    }
+}
+
+@layer components {
+    .tabular {
+        font-variant-numeric: tabular-nums;
+    }
+
+    .safe-bottom {
+        padding-bottom: calc(var(--tg-safe-area-inset-bottom, env(safe-area-inset-bottom, 0px)) + 8px);
+    }
+
+    .safe-top {
+        padding-top: var(--tg-content-safe-area-inset-top, 0px);
+    }
+
+    .press {
+        transition:
+            transform 120ms ease-out,
+            background-color 150ms;
+    }
+    .press:active {
+        transform: scale(0.98);
+    }
+
+    .scroll-area {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+        scrollbar-width: none;
+    }
+    .scroll-area::-webkit-scrollbar {
+        display: none;
+    }
+
+    .skeleton {
+        background: linear-gradient(90deg, var(--soft) 0%, var(--pressed) 50%, var(--soft) 100%);
+        background-size: 200% 100%;
+        animation: shimmer 1.4s linear infinite;
+        border-radius: 16px;
+    }
+}
+
+@keyframes shimmer {
+    to {
+        background-position: -200% 0;
+    }
+}
+
+@keyframes stop-pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.35;
+    }
+    100% {
+        transform: scale(2.8);
+        opacity: 0;
+    }
+}
+
+.bus-marker {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 22px;
+    padding: 0 8px;
+    border-radius: 999px;
+    background: var(--primary);
+    color: var(--on-primary);
+    box-shadow: var(--float);
+    font: 600 12px / 1 var(--font-sans);
+    font-variant-numeric: tabular-nums;
+}
+.bus-marker[data-dim="true"] {
+    min-width: 26px;
+    height: 18px;
+    padding: 0 6px;
+    font-size: 10px;
+    background: var(--canvas);
+    color: var(--body);
+    box-shadow: 0 0 0 1px var(--pressed);
+}
+.bus-marker .heading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+.bus-marker .heading::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: -21px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid var(--primary);
+}
+.bus-marker[data-dim="true"] .heading::before {
+    top: -18px;
+    border-bottom-color: var(--mute);
+}
+
+.stop-marker[data-target="true"] {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: var(--ink);
+    box-shadow:
+        0 0 0 4px var(--canvas),
+        var(--float);
+}
+.stop-marker[data-target="true"]::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 999px;
+    background: var(--ink);
+    animation: stop-pulse 2.4s ease-out infinite;
+}
+
+.me-marker {
+    width: 14px;
+    height: 14px;
+    border-radius: 999px;
+    background: #276ef1;
+    box-shadow:
+        0 0 0 3px #fff,
+        var(--float);
+}
+
+.maplibregl-ctrl-attrib {
+    font-size: 10px !important;
+    opacity: 0.6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

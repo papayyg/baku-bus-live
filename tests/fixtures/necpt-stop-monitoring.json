@@ -1,0 +1,525 @@
+{
+  "message": null,
+  "status": true,
+  "isUnexpectedError": false,
+  "data": {
+    "siri": {
+      "serviceDelivery": {
+        "responseTimestamp": "2026-10-27T01:37:10-07:00",
+        "producerRef": "LIT TRANSIT",
+        "stopMonitoringDelivery": [
+          {
+            "responseTimestamp": "2026-10-27T01:37:10-07:00",
+            "validUntil": "2026-10-27T01:39:10-07:00",
+            "monitoredStopVisit": [
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "202-2-01",
+                  "directionRef": "Dərbəndqala küç. 84A - Nəriman Nərimanov m/st",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1601951384828180587"
+                  },
+                  "publishedLineName": "202",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": null,
+                  "vehicleFeatureRef": null,
+                  "originRef": "001001559",
+                  "originName": "Dərbəndqala küçəsi 84A",
+                  "destinationRef": "001000001",
+                  "destinationName": "Təbriz küçəsi-Nəriman Nәrimanov metro stansiyası",
+                  "monitored": true,
+                  "vehicleLocation": {
+                    "longitude": 49.84280883333333,
+                    "latitude": 40.420691166666664
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": "0.0",
+                  "passengerCountOnBus": 0,
+                  "approachingDistance": 0,
+                  "vehicleRef": "01480",
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "24",
+                    "vehicleAtStop": true,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.84280883333333,
+                      "latitude": 40.420691166666664
+                    },
+                    "aimedArrivalTime": "2026-10-27T01:23:00-07:00",
+                    "expectedArrivalTime": "2026-10-27T01:36:46-07:00",
+                    "aimedDepartureTime": "2026-10-27T01:23:00-07:00",
+                    "expectedDepartureTime": "2026-10-27T01:37:16-07:00"
+                  }
+                }
+              },
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "202-2-01",
+                  "directionRef": "Dərbəndqala küç. 84A - Nəriman Nərimanov m/st",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1601951406303017535"
+                  },
+                  "publishedLineName": "202",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": null,
+                  "vehicleFeatureRef": null,
+                  "originRef": "001001559",
+                  "originName": "Dərbəndqala küçəsi 84A",
+                  "destinationRef": "001000001",
+                  "destinationName": "Təbriz küçəsi-Nəriman Nәrimanov metro stansiyası",
+                  "monitored": true,
+                  "vehicleLocation": {
+                    "longitude": 49.8409915,
+                    "latitude": 40.42537216666666
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": "0.0",
+                  "passengerCountOnBus": 0,
+                  "approachingDistance": 662,
+                  "vehicleRef": "01478",
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "24",
+                    "vehicleAtStop": false,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.842643,
+                      "latitude": 40.420765
+                    },
+                    "aimedArrivalTime": "2026-10-27T01:29:00-07:00",
+                    "expectedArrivalTime": "2026-10-27T01:40:12-07:00",
+                    "aimedDepartureTime": "2026-10-27T01:29:00-07:00",
+                    "expectedDepartureTime": "2026-10-27T01:40:42-07:00"
+                  }
+                }
+              },
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "88-1-01",
+                  "directionRef": "Dərnəgül NMM - 20-ci Sahə dairəsi",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1602103860462175204"
+                  },
+                  "publishedLineName": "88",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": null,
+                  "vehicleFeatureRef": null,
+                  "originRef": "001001365",
+                  "originName": "Dərnəgül Nəqliyyat Mübadilə Mərkəzi",
+                  "destinationRef": "001001236",
+                  "destinationName": "20-ci Sahə dairəsi-2",
+                  "monitored": true,
+                  "vehicleLocation": {
+                    "longitude": 49.847328166666664,
+                    "latitude": 40.42661366666667
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": "0.0",
+                  "passengerCountOnBus": 0,
+                  "approachingDistance": 1649,
+                  "vehicleRef": "67583",
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "11",
+                    "vehicleAtStop": false,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.842643,
+                      "latitude": 40.420765
+                    },
+                    "aimedArrivalTime": null,
+                    "expectedArrivalTime": "2026-10-27T01:42:04-07:00",
+                    "aimedDepartureTime": null,
+                    "expectedDepartureTime": "2026-10-27T01:42:22-07:00"
+                  }
+                }
+              },
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "202-2-01",
+                  "directionRef": "Dərbəndqala küç. 84A - Nəriman Nərimanov m/st",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1601951384828180585"
+                  },
+                  "publishedLineName": "202",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": null,
+                  "vehicleFeatureRef": null,
+                  "originRef": "001001559",
+                  "originName": "Dərbəndqala küçəsi 84A",
+                  "destinationRef": "001000001",
+                  "destinationName": "Təbriz küçəsi-Nəriman Nәrimanov metro stansiyası",
+                  "monitored": true,
+                  "vehicleLocation": {
+                    "longitude": 49.8444125,
+                    "latitude": 40.43585183333333
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": "0.0",
+                  "passengerCountOnBus": 0,
+                  "approachingDistance": 2146,
+                  "vehicleRef": "01477",
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "24",
+                    "vehicleAtStop": false,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.842643,
+                      "latitude": 40.420765
+                    },
+                    "aimedArrivalTime": "2026-10-27T01:36:00-07:00",
+                    "expectedArrivalTime": "2026-10-27T01:46:12-07:00",
+                    "aimedDepartureTime": "2026-10-27T01:36:00-07:00",
+                    "expectedDepartureTime": "2026-10-27T01:46:42-07:00"
+                  }
+                }
+              },
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "202-2-01",
+                  "directionRef": "Dərbəndqala küç. 84A - Nəriman Nərimanov m/st",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1601950968216343192"
+                  },
+                  "publishedLineName": "202",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": null,
+                  "vehicleFeatureRef": null,
+                  "originRef": "001001559",
+                  "originName": "Dərbəndqala küçəsi 84A",
+                  "destinationRef": "001000001",
+                  "destinationName": "Təbriz küçəsi-Nəriman Nәrimanov metro stansiyası",
+                  "monitored": true,
+                  "vehicleLocation": {
+                    "longitude": 49.80304816666667,
+                    "latitude": 40.437572
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": "0.0",
+                  "passengerCountOnBus": 0,
+                  "approachingDistance": 0,
+                  "vehicleRef": "01545",
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "24",
+                    "vehicleAtStop": false,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.842643,
+                      "latitude": 40.420765
+                    },
+                    "aimedArrivalTime": "2026-10-27T01:50:00-07:00",
+                    "expectedArrivalTime": "2026-10-27T01:57:55-07:00",
+                    "aimedDepartureTime": "2026-10-27T01:50:00-07:00",
+                    "expectedDepartureTime": "2026-10-27T01:58:25-07:00"
+                  }
+                }
+              },
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "6-2-01",
+                  "directionRef": "Azadlıq m/st - Ö.Nemanzadə küç. 37",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1601948202257400658"
+                  },
+                  "publishedLineName": "6",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": "",
+                  "vehicleFeatureRef": "",
+                  "originRef": "001000667",
+                  "originName": "Azadlıq metro stansiyası",
+                  "destinationRef": "001001598",
+                  "destinationName": "Səbail Maşınqayırma zavodu",
+                  "monitored": false,
+                  "vehicleLocation": {
+                    "longitude": 0,
+                    "latitude": 0
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": null,
+                  "passengerCountOnBus": null,
+                  "approachingDistance": null,
+                  "vehicleRef": null,
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "3",
+                    "vehicleAtStop": false,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.842643,
+                      "latitude": 40.420765
+                    },
+                    "aimedArrivalTime": "2026-10-27T01:40:00-07:00",
+                    "expectedArrivalTime": "2026-10-27T01:40:00-07:00",
+                    "aimedDepartureTime": "2026-10-27T01:40:00-07:00",
+                    "expectedDepartureTime": "2026-10-27T01:40:00-07:00"
+                  }
+                }
+              },
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "6-2-01",
+                  "directionRef": "Azadlıq m/st - Ö.Nemanzadə küç. 37",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1601948206552368038"
+                  },
+                  "publishedLineName": "6",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": "",
+                  "vehicleFeatureRef": "",
+                  "originRef": "001000667",
+                  "originName": "Azadlıq metro stansiyası",
+                  "destinationRef": "001001598",
+                  "destinationName": "Səbail Maşınqayırma zavodu",
+                  "monitored": false,
+                  "vehicleLocation": {
+                    "longitude": 0,
+                    "latitude": 0
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": null,
+                  "passengerCountOnBus": null,
+                  "approachingDistance": null,
+                  "vehicleRef": null,
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "3",
+                    "vehicleAtStop": false,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.842643,
+                      "latitude": 40.420765
+                    },
+                    "aimedArrivalTime": "2026-10-27T01:47:00-07:00",
+                    "expectedArrivalTime": "2026-10-27T01:47:00-07:00",
+                    "aimedDepartureTime": "2026-10-27T01:47:00-07:00",
+                    "expectedDepartureTime": "2026-10-27T01:47:00-07:00"
+                  }
+                }
+              },
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "88-1-01",
+                  "directionRef": "Dərnəgül NMM - 20-ci Sahə dairəsi",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1601949026891122888"
+                  },
+                  "publishedLineName": "88",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": "",
+                  "vehicleFeatureRef": "",
+                  "originRef": "001001365",
+                  "originName": "Dərnəgül Nəqliyyat Mübadilə Mərkəzi",
+                  "destinationRef": "001001236",
+                  "destinationName": "20-ci Sahə dairəsi-2",
+                  "monitored": false,
+                  "vehicleLocation": {
+                    "longitude": 0,
+                    "latitude": 0
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": null,
+                  "passengerCountOnBus": null,
+                  "approachingDistance": null,
+                  "vehicleRef": null,
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "11",
+                    "vehicleAtStop": false,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.842643,
+                      "latitude": 40.420765
+                    },
+                    "aimedArrivalTime": "2026-10-27T01:50:00-07:00",
+                    "expectedArrivalTime": "2026-10-27T01:50:00-07:00",
+                    "aimedDepartureTime": "2026-10-27T01:51:00-07:00",
+                    "expectedDepartureTime": "2026-10-27T01:51:00-07:00"
+                  }
+                }
+              },
+              {
+                "recordedAtTime": "2026-10-27T01:37:10-07:00",
+                "monitoringRef": "001001280",
+                "monitoredVehicleJourney": {
+                  "lineRef": "6-2-01",
+                  "directionRef": "Azadlıq m/st - Ö.Nemanzadə küç. 37",
+                  "variantRef": "1",
+                  "framedVehicleJourneyRef": {
+                    "dataFrameRef": "2026-10-27",
+                    "datedVehicleJourneyRef": "1601948193667465893"
+                  },
+                  "publishedLineName": "6",
+                  "operatorRef": "LECIP",
+                  "productCategoryRef": "",
+                  "serviceFeatureRef": "",
+                  "vehicleFeatureRef": "",
+                  "originRef": "001000667",
+                  "originName": "Azadlıq metro stansiyası",
+                  "destinationRef": "001001598",
+                  "destinationName": "Səbail Maşınqayırma zavodu",
+                  "monitored": false,
+                  "vehicleLocation": {
+                    "longitude": 0,
+                    "latitude": 0
+                  },
+                  "occupancy": "Seats Available",
+                  "occupancyPercent": null,
+                  "passengerCountOnBus": null,
+                  "approachingDistance": null,
+                  "vehicleRef": null,
+                  "previousCalls": [
+                    {
+                      "stopPointRef": null,
+                      "visitNumber": null,
+                      "stopPointName": null,
+                      "vehicleAtStop": false,
+                      "aimedDepartureTime": "0001-01-01T00:00:00",
+                      "actualDepartureTime": null
+                    }
+                  ],
+                  "monitoredCall": {
+                    "visitNumber": "1",
+                    "order": "3",
+                    "vehicleAtStop": false,
+                    "stopPointName": "135 nömrəli tam orta məktəb",
+                    "vehicleLocationAtStop": {
+                      "longitude": 49.842643,
+                      "latitude": 40.420765
+                    },
+                    "aimedArrivalTime": "2026-10-27T01:54:00-07:00",
+                    "expectedArrivalTime": "2026-10-27T01:54:00-07:00",
+                    "aimedDepartureTime": "2026-10-27T01:54:00-07:00",
+                    "expectedDepartureTime": "2026-10-27T01:54:00-07:00"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

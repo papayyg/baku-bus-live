@@ -1,0 +1,66 @@
+{
+  "pageIndex": 0,
+  "pageSize": 5000,
+  "totalCount": 3841,
+  "totalPages": 1,
+  "indexFrom": 0,
+  "items": [
+    {
+      "id": 1,
+      "code": "1000012",
+      "name": "Y.Əliyev küç.",
+      "nameMonitor": "Y.Əliyev küç.",
+      "utmCoordX": "0",
+      "utmCoordY": "0",
+      "longitude": "49.961721",
+      "latitude": "40.43885",
+      "isTransportHub": false
+    },
+    {
+      "id": 1496,
+      "code": "1001280",
+      "name": "135 nömrəli tam orta məktəb",
+      "nameMonitor": "135 nömrəli tam orta məktəb",
+      "utmCoordX": "0",
+      "utmCoordY": "0",
+      "longitude": "49.842643",
+      "latitude": "40.420765",
+      "isTransportHub": false
+    },
+    {
+      "id": 1465,
+      "code": "1001237",
+      "name": "Neftçilər m/st",
+      "nameMonitor": "Neftçilər m/st",
+      "utmCoordX": "0",
+      "utmCoordY": "0",
+      "longitude": "49.942556",
+      "latitude": "40.41164",
+      "isTransportHub": false
+    },
+    {
+      "id": 3097,
+      "code": "1003892",
+      "name": "“Şimal” Elektrik Stansiyası",
+      "nameMonitor": "“Şimal” Elektrik Stansiyası",
+      "utmCoordX": "0",
+      "utmCoordY": "0",
+      "longitude": "50,206,297",
+      "latitude": "40,498,112",
+      "isTransportHub": false
+    },
+    {
+      "id": 3098,
+      "code": "10000011",
+      "name": "SEA BREEZE HUB 2",
+      "nameMonitor": "SEA BREEZE HUB 2",
+      "utmCoordX": "0",
+      "utmCoordY": "0",
+      "longitude": "49,937,322",
+      "latitude": "40,578,409",
+      "isTransportHub": false
+    }
+  ],
+  "hasPreviousPage": false,
+  "hasNextPage": false
+}

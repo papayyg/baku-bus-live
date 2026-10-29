@@ -1,0 +1,200 @@
+{
+  "id": 20,
+  "carrier": "Vətən firması",
+  "number": "26",
+  "firstPoint": "8 saylı şəhər poliklinikası",
+  "lastPoint": "9-cu mkr  ",
+  "routLength": 21.1,
+  "paymentTypeId": 1,
+  "cardPaymentDate": "2020-02-13T20:00:00Z",
+  "tariff": 50,
+  "regionId": 1,
+  "workingZoneTypeId": 1,
+  "paymentType": {
+    "id": 1,
+    "name": "Kart",
+    "description": null,
+    "isActive": true,
+    "deactivedDate": null,
+    "priority": 1
+  },
+  "region": {
+    "id": 1,
+    "name": "Bakı",
+    "description": null,
+    "isActive": true,
+    "deactivedDate": null,
+    "priority": 1
+  },
+  "workingZoneType": {
+    "id": 1,
+    "name": "Şəhərdaxili",
+    "description": null,
+    "isActive": true,
+    "deactivedDate": null,
+    "priority": 1
+  },
+  "stops": [
+    {
+      "id": 6453,
+      "stopCode": "1001791",
+      "stopName": "V.Mayakovski küç. 19",
+      "totalDistance": 21.1,
+      "intermediateDistance": 0.0,
+      "directionTypeId": 1,
+      "busId": 20,
+      "stopId": 1842,
+      "stop": {
+        "id": 1842,
+        "code": "1001791",
+        "name": "V.Mayakovski küç. 19",
+        "nameMonitor": "V.Mayakovski küç. 19",
+        "utmCoordX": "0",
+        "utmCoordY": "0",
+        "longitude": "49.876396",
+        "latitude": "40.393706",
+        "isTransportHub": false
+      }
+    },
+    {
+      "id": 6454,
+      "stopCode": "1002611",
+      "stopName": "V.Mayakovski küç. 10",
+      "totalDistance": 21.1,
+      "intermediateDistance": 0.0,
+      "directionTypeId": 1,
+      "busId": 20,
+      "stopId": 2515,
+      "stop": {
+        "id": 2515,
+        "code": "1002611",
+        "name": "V.Mayakovski küç. 10",
+        "nameMonitor": "V.Mayakovski küç. 10",
+        "utmCoordX": "0",
+        "utmCoordY": "0",
+        "longitude": "49.876239",
+        "latitude": "40.394081",
+        "isTransportHub": false
+      }
+    },
+    {
+      "id": 6455,
+      "stopCode": "1002638",
+      "stopName": "291 nömrəli Ekologiya Liseyi",
+      "totalDistance": 21.1,
+      "intermediateDistance": 0.0,
+      "directionTypeId": 1,
+      "busId": 20,
+      "stopId": 2540,
+      "stop": {
+        "id": 2540,
+        "code": "1002638",
+        "name": "291 nömrəli Ekologiya Liseyi",
+        "nameMonitor": "291 nömrəli Ekologiya Liseyi",
+        "utmCoordX": "0",
+        "utmCoordY": "0",
+        "longitude": "49.87593",
+        "latitude": "40.394612",
+        "isTransportHub": false
+      }
+    },
+    {
+      "id": 6483,
+      "stopCode": "1000936",
+      "stopName": "H.Babaşov küç. 29Q",
+      "totalDistance": 21.1,
+      "intermediateDistance": 0.0,
+      "directionTypeId": 2,
+      "busId": 20,
+      "stopId": 1246,
+      "stop": {
+        "id": 1246,
+        "code": "1000936",
+        "name": "H.Babaşov küç. 29Q",
+        "nameMonitor": "H.Babaşov küç. 29Q",
+        "utmCoordX": "0",
+        "utmCoordY": "0",
+        "longitude": "49.821597",
+        "latitude": "40.426819",
+        "isTransportHub": false
+      }
+    },
+    {
+      "id": 6484,
+      "stopCode": "1001408",
+      "stopName": "Nəsimi m/st",
+      "totalDistance": 21.1,
+      "intermediateDistance": 0.0,
+      "directionTypeId": 2,
+      "busId": 20,
+      "stopId": 1567,
+      "stop": {
+        "id": 1567,
+        "code": "1001408",
+        "name": "Nəsimi m/st",
+        "nameMonitor": "Nəsimi m/st",
+        "utmCoordX": "0",
+        "utmCoordY": "0",
+        "longitude": "49.82376",
+        "latitude": "40.424077",
+        "isTransportHub": false
+      }
+    }
+  ],
+  "routes": [
+    {
+      "id": 227,
+      "code": "26",
+      "customerName": "26",
+      "type": "26",
+      "name": "0",
+      "destination": "V.Mayakovski küç. 19 - H.Babaşov küç. 29Q",
+      "variant": "1",
+      "operator": "26",
+      "busId": 20,
+      "directionTypeId": 1,
+      "flowCoordinates": [
+        {
+          "lat": 40.39375,
+          "lng": 49.87643
+        },
+        {
+          "lat": 40.393626,
+          "lng": 49.87671
+        },
+        {
+          "lat": 40.393642,
+          "lng": 49.876753
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "code": "26",
+      "customerName": "26",
+      "type": "26",
+      "name": "0",
+      "destination": "H.Babaşov küç. 29Q - V.Mayakovski küç. 19",
+      "variant": "1",
+      "operator": "26",
+      "busId": 20,
+      "directionTypeId": 2,
+      "flowCoordinates": [
+        {
+          "lat": 40.426910000000255,
+          "lng": 49.82154000000012
+        },
+        {
+          "lat": 40.42702000000008,
+          "lng": 49.82174999999955
+        },
+        {
+          "lat": 40.42716000000007,
+          "lng": 49.82202000000036
+        }
+      ]
+    }
+  ],
+  "tariffStr": "0.50 AZN",
+  "durationMinuts": 35
+}

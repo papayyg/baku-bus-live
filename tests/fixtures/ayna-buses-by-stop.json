@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "carrier": "BakuBus MMC",
+    "number": "1",
+    "firstPoint": "Neftçilər m/st",
+    "lastPoint": "28 May m/st",
+    "routLength": 25.8,
+    "paymentTypeId": 1,
+    "cardPaymentDate": "2015-09-05T19:00:00Z",
+    "tariff": 60,
+    "regionId": 1,
+    "workingZoneTypeId": 1,
+    "paymentType": null,
+    "region": null,
+    "workingZoneType": null,
+    "stops": null,
+    "routes": null,
+    "tariffStr": "0.60 AZN",
+    "durationMinuts": 43
+  },
+  {
+    "id": 9,
+    "carrier": "BakuBus MMC",
+    "number": "11",
+    "firstPoint": "Dəmiryol vağzalı ",
+    "lastPoint": "İbrahim Əbilov küç.",
+    "routLength": 40.7,
+    "paymentTypeId": 1,
+    "cardPaymentDate": "2020-05-29T20:00:00Z",
+    "tariff": 60,
+    "regionId": 1,
+    "workingZoneTypeId": 1,
+    "paymentType": null,
+    "region": null,
+    "workingZoneType": null,
+    "stops": null,
+    "routes": null,
+    "tariffStr": "0.60 AZN",
+    "durationMinuts": 67
+  }
+]
